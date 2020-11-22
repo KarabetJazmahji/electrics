@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    font-size: 1.6rem;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    padding : 0.75rem 0;
+}
+.primary-text{
+    color: #ffff67;
+}
+.center-text{   
+    text-align: center;
+}
+
+/* Navbar section */
+#navbar .logo{
+    font-weight: 200;
+}
+
+.navbar{
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.nav{
+    margin-left: 800px; 
+    padding-top: 5px;
+}
+
+.logo{
+    color: #fff;
+}
+
+
+/* Showcase section */
+#showcase{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+      url('../img/main.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+#showcase .showcasecontent{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#showcase .showcasecontent h1{
+    font-weight: 200;
+}
+
+.link-btn{
+    background: #ffff67;
+    padding: 0.5rem 1rem;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    
+}
+
+.link-btn:hover{
+    background: #f8f413;
+}
+
+
+/*About section */
+#about{
+    max-width: 1100px;
+    margin: auto;
+    padding: 1.5rem 0;
+    overflow: hidden;
+}
+
+.items{
+    display: flex;
+    padding: 1.3rem 0;
+    
+}
+
+.item{
+    flex: 1;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.icon-design{
+    background: #ffff12;
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+
+/* Who I am section */
+#who{
+    display: flex; 
+}
+#who div{
+    flex: 1;
+}
+
+#who .content-left{
+    background: url('../img/garo1.jpg') no-repeat center center/cover;
+    display: block;
+    height: 500px;
+}
+
+#who .content-right{
+    background: #333;
+    color: #fff;
+    height: 500px;
+    padding: 1.1rem 1.2rem;
+}
+
+#who .content-right li{
+   list-style: none;
+   line-height: 1.5rem;
+   padding: 0 1.2rem;
+} 
+
+/* Contact section */
+#contact{
+   margin: 10px 0 0 50px;
+   display: flex;
+   justify-content: space-between;     
+}
+
+#contact > div{
+    width: 50%;
+}
+
+/* #contact-form{
+    padding: 20px 0px 0px 20px;
+} */
+
+#inner-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs{
+    width: 80%;
+    border: slategray 1.5px solid;
+    border-radius: 2px;
+    line-height: 2.5em;
+}
+
+#contact-form input:last-child{
+    border: none;
+    line-height: 2em;
+    width: 200px;
+    margin: 10px auto;
+}
+
+#contact-form textarea{
+    line-height: 4em;
+}
+
+#inner-flex p{
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#estimate{
+    padding: 10px;
+    margin-top: 10px;
+    width: 30%;   
+    background: #ffff67;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#estimate:hover{
+    background: #f8f413;
+}
+
+#info{
+    display: none;
+}
+
+#contact label{
+    display: block;
+    margin-top: 10px;
+} 
+
+
+
+/* Footer section */
+#main-footer{
+    background: #333;
+    color: #fff;
+}
+
+#main-footer a, #main-footer a:hover{
+    color: #f8f413;
+}
+
+
+@media (max-width:1220px) and (min-width:1020px) {
+    .nav{
+        margin-left: 500px; 
+        padding-top: 0;
+    }
+}
+
+@media (max-width:1020px) and (min-width:900px) {
+    .nav{
+        margin-left: 300px; 
+        padding-top: 0;
+    }
+}
+
+@media (max-width:900px) and (min-width:768px) {
+    .nav{
+        margin-left: 200px; 
+        padding-top: 0;
+    }
+}
+

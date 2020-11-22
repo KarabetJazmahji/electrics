@@ -1,0 +1,49 @@
+.nav{
+    margin-left: 0; 
+    padding-top: 0;
+}
+
+.logo{
+    text-align: center;
+}
+
+#who{
+    display: block;
+}
+
+#who .content-left{
+    display: none;
+}
+
+#who .content-right{
+    max-height: 300px;
+}
+
+#about .items{
+    padding: 0px;
+}
+
+.dropdown-content {
+    margin-top:10px;
+    min-width: 100px;
+}
+
+#contact{
+    margin: 10px 0 0 10px;
+}
+
+#contact-form input:last-child{
+    width: 100px;
+}
+
+#inner-flex p{
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+#estimate{
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;   
+}
+
